@@ -15,7 +15,7 @@ INSTRUCT_CONFIG = {
         "lr": 0.0001,
         "distributed": "ddp",
         "gpu_count": 1,
-        "batch_size": 140,
+        "batch_size": 80,
         "use_lora": False
     },
     "1_2_b": {
@@ -23,7 +23,7 @@ INSTRUCT_CONFIG = {
         "distributed": "ddp",
         "gpu_count": 1,
         "use_lora": False,
-        "batch_size": 100,
+        "batch_size": 60,
     },
     "2_4_b": {
         "lr": 8e-5,
